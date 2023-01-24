@@ -1,0 +1,96 @@
+HTTP Request Methods (HTTP so'rov usullari) 
+
+1. GET
+2. POST
+3. PUT 
+4. PATCH
+5. DELETE
+
+6. HEAD
+7. CONNECT
+8. TRACE
+9. OPTIONS
+
+
+1. GET, HEAD (Read)
+2. POST (Add to collection) (to'plamga qo'shish)
+3. PUT (Place, Repalce) (joylashtirish, almashtirish)
+4. PATCH (Edit) (taxrirlash, o'gartirish)
+5. DELETE (Delete) (o'chirish)
+6. CONNECT (ulanish)
+7. TRACE 
+8. OPTIONS (variantlar)
+
+
+HTTP Response Statuses (HTTP javob holatlari)
+
+2xx - Success (muvaffaqiyatli)
+
+3xx - Rediriction(qayta yo'naltirish)
+
+4xx - client Errors (Client xatosi)
+
+5xx - Server Errors (Server xatosi)
+
+
+
+2XX 
+
+200 - OK
+201 - Created (yaratilgan)
+202 - Accepted (Qabul qilingan)
+203 - Non-Authorotative Information (Tasdiqlanmagan ma'lumolar)
+204 - No Content (empty)
+205 - Reset Content (tarkibni tiklash, (tozalash))
+206 - Partial Content (qiaman tarib, (tarkibni qismi))
+207 - Multi-Status (ko'o holatli)
+208 - Alredy Reported (allaqachon xabar qilingan)
+226 - IM Used (IM ishlatilgan)
+
+
+
+4XX 
+
+400 - Bad Request (noto'g'ri so'rov)
+401 - Unauthorized (ruxsatsiz)
+402 - Payment Required (to'lov talab qilanadi)
+403 - Forbidden (taqiqlangan)
+404 - Not Found (topilmadi)
+405 - Method Not Allowed (method ruxsat etilmaydi)
+406 - Not Acceptable (qabul qilib bo'lmaydi)
+407 - Proxy Authentication Required (Proksi autentifikatsiyasi talab qilinadi)
+408 - Request Timeout (so'rov muddati tugashi)
+...
+499 - Client Closed Request (clientning yopiq so'rovi)
+
+
+
+
+5XX 
+
+500 - Internal Server Error (serverdagi ichki xatolik)
+501 - Not Implemented (amalga oshirilmagan)
+502 - Bad Getaway ()
+503 - Service Unavailable (service ish faoliyatida emas)
+504 - Getaway Timeout ()
+505 - HTTP Version Not Supported (HTTP versiyasi qo'llab-quvvatlanmaydi)
+506 - Variant Also Negotiates ()
+507 - Insufficient Storage (xotira yetarli emas)
+508 - Loop detected (loop aniqlandi)
+...
+526 - Invalid SSL Certificate (yaroqsiz SSL sertifikati)
+
+
+
+
+3XX 
+
+300 - Multiple Choices (bir nechta tanlov)
+301 - Moved Permanently (doimiy ko'chirildi)
+302 - Moved Temporarily (vaqtinchalik ko'chirildi)
+302 - Found (topildi)
+303 - See Other (boshqasini ko'rish)
+304 - Not Modified (o'zgartirilmagan)
+305 - Use Proxy (proxy server foydalaning)
+307 - Temporary Redirect (Vaqtinchalik qayta yo'naltirish)
+308 - Parmament Redirect (Parmamentni qayta yo'naltirish) 
